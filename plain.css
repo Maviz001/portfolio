@@ -1,0 +1,99 @@
+.crousel{
+    position: relative;
+}
+.crousel-inner{
+    overflow: hidden;
+    width: 100%;
+
+}
+.crousel-caption{
+    position: relative;
+    text-align:left;
+    bottom: inherit;
+    text-shadow: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width:1605px;
+    text-align: center;
+    margin-left:0%;
+    margin-right: 0%;
+    background-color: rgb(80, 67, 63);
+}
+#project{
+    text-align:left ;
+    background-color: white;
+    margin-left:60px;
+    margin-right:60px;
+   margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:100;
+    font-weight: lighter;
+    font-family:'Times New Roman', Times, serif;
+    }    
+.h5{
+    font-weight:900;
+    font-size:200%;
+}
+#contact{
+    text-align:left ;
+    background-color: white;
+    margin-top:50px;
+    margin-left:60px;
+    margin-right:60px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:200%;
+    font-family:'Times New Roman', Times, serif;    
+}
+.f{
+    padding-top:30px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.form-control{
+    padding:8px;
+    border: 1px solid transparent;
+}
+.form-group{
+    margin-bottom: 15px;
+    background-color:lightgray;    
+}
+.col{
+    margin-left: auto;
+    margin-right: auto;
+}
+#about{
+text-align:left ;
+background-color: white;
+margin-top:50px;
+margin-left:60px;
+margin-right:60px;
+padding-top:20px;
+padding-bottom:20px;
+font-size:200%;
+font-family:'Times New Roman', Times, serif;
+}
+.abt{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    font-weight: bold ;
+}
+#home{
+    color:white;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+p{
+    padding-left: 10px;
+}
+a{
+    font-size:100%;
+    color: white !important ;
+}
